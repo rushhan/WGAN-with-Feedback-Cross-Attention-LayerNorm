@@ -8,7 +8,7 @@ WGAN with feedback from discriminator&amp; LayerNorm instead of BatchNorm
 Note that the results from LayerNorm were not promising
 
 ## Execute
-python main.py --dataset lsun --dataroot /workspace/lsun --cuda --clamp --fdbac--save_dir sample
+python main.py --dataset lsun --dataroot /workspace/lsun --cuda --clamp --fdback --save_dir sample
 
 ## Notes
 Need the lsun data.
